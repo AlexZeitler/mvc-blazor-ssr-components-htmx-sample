@@ -10,9 +10,6 @@
     <link asp-append-version="true"
           href="~/css/site.css"
           rel="stylesheet"/>
-    <link asp-append-version="true"
-          href="~/MvcBlazorSSR.styles.css"
-          rel="stylesheet"/>
 </head>
 <body>
 <header>
@@ -39,12 +36,6 @@
                            asp-controller="Home"
                            class="nav-link text-dark">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a asp-action="Privacy"
-                           asp-area=""
-                           asp-controller="Home"
-                           class="nav-link text-dark">Privacy</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -59,10 +50,7 @@
 
 <footer class="border-top footer text-muted">
     <div class="container">
-        &copy; 2023 - MvcBlazorSSR -
-        <a asp-action="Privacy"
-           asp-area=""
-           asp-controller="Home">Privacy</a>
+        &copy; 2023 - MvcBlazorSSR
     </div>
 </footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
